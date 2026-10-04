@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+# Machine-readable résumé data; keep it out of search results.
+Disallow: /api/
+
+Sitemap: https://rocknrold.github.io/sitemap.xml
