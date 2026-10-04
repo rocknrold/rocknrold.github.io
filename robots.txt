@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+# Machine-readable résumé data; keep it out of search results.
+Disallow: /api/
+
+Sitemap: https://rocknrold.github.io/sitemap.xml
