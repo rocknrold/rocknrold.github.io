@@ -79,6 +79,15 @@ const paths: Record<IconName, React.ReactNode> = {
       <circle cx="4" cy="4" r="2" />
     </>
   ),
+  stackoverflow: (
+    <>
+      <path d="M5 15v5h14v-5" />
+      <path d="M8 17h8" />
+      <path d="m8.2 13.6 7.8 1.4" />
+      <path d="m9.1 10 7.3 2.9" />
+      <path d="m10.9 6.6 6.4 4.6" />
+    </>
+  ),
   mail: (
     <>
       <rect width="20" height="16" x="2" y="4" rx="2" />

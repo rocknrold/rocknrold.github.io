@@ -95,7 +95,7 @@ export type Work = {
 
 export type IconName =
   | "trophy" | "bot" | "plug" | "server" | "zap" | "clipboard" | "users" | "receipt"
-  | "github" | "linkedin" | "mail" | "map-pin" | "arrow-right" | "arrow-up-right"
+  | "github" | "linkedin" | "stackoverflow" | "mail" | "map-pin" | "arrow-right" | "arrow-up-right"
   | "copy" | "check" | "sun" | "moon" | "send" | "git-branch" | "database" | "cloud"
   | "code" | "layers" | "shield" | "graduation" | "award" | "x" | "menu" | "terminal"
   | "workflow" | "sparkles" | "external";

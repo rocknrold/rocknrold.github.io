@@ -78,6 +78,9 @@ export function Hero() {
               <a className="icon-btn" href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
                 <Icon name="linkedin" size={18} />
               </a>
+              <a className="icon-btn" href={profile.links.stackoverflow} target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow profile">
+                <Icon name="stackoverflow" size={18} />
+              </a>
             </div>
           </div>
           <p className={s.heroMeta}>
@@ -444,6 +447,9 @@ export function Contact() {
               <a className="btn btn-ghost" href={profile.links.github} target="_blank" rel="noopener noreferrer">
                 <Icon name="github" size={16} /> GitHub
               </a>
+              <a className="btn btn-ghost" href={profile.links.stackoverflow} target="_blank" rel="noopener noreferrer">
+                <Icon name="stackoverflow" size={16} /> Stack Overflow
+              </a>
             </div>
           </div>
           <pre className={s.terminal} aria-label="Example terminal command">
@@ -481,6 +487,9 @@ export function Footer() {
           </a>
           <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer">
             LinkedIn
+          </a>
+          <a href={profile.links.stackoverflow} target="_blank" rel="noopener noreferrer">
+            Stack Overflow
           </a>
           <a href={`mailto:${profile.links.email}`}>Email</a>
           <a href="#top">Back to top</a>

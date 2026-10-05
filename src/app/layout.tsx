@@ -64,7 +64,7 @@ const personLd = {
   url: SITE_URL,
   image: `${SITE_URL}/Aaron.jpg`,
   address: { "@type": "PostalAddress", addressLocality: "Taguig City", addressRegion: "Metro Manila", addressCountry: "PH" },
-  sameAs: [profile.links.github, profile.links.linkedin],
+  sameAs: [profile.links.github, profile.links.linkedin, profile.links.stackoverflow],
   worksFor: { "@type": "Organization", name: profile.company },
   alumniOf: { "@type": "CollegeOrUniversity", name: "Technological University of the Philippines – Taguig" },
   knowsAbout: ["PHP", "Laravel", "C#", ".NET", "REST APIs", "Microsoft Azure", "Model Context Protocol", "OpenAI API"],
